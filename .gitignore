@@ -1,0 +1,42 @@
+# IDE / Editor
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build / output
+/out/
+/build/
+/target/
+/bin/
+
+# Java
+*.class
+*.jar
+
+# Database and resources (local dumps, credentials)
+/resources/db.sql
+*.db
+*.sqlite
+
+# Logs
+*.log
+
+# Environment / secrets
+.env
+.env.local
+secrets.properties
+credentials.properties
+
+# Misc
+*.bak
+*.swp
+
+# Personal source config
+src/com/erp/utils/Config.java
